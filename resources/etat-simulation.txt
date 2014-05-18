@@ -1,0 +1,10 @@
+begin_robots (type, idNoeudPosition, eauRestante)
+RobotRoues, 8138514, 5
+RobotRoues, 9015889, 5
+RobotPattes, 9015888, 5
+RobotChenilles, 27502510, 5
+end_robots
+begin_incendies (idNoeudPosition, intensiteFeu)
+1421335154, 2
+287691309, 5
+end_incendies

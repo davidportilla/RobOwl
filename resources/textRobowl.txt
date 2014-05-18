@@ -1,0 +1,25 @@
+	   
+     L'organisation de secours lors d'une catastrophe majeure est un probleme important. En particulier, les acteurs presents 
+   sur le lieu de la catastrophe peuvent etre de differentes nationalites, peuvent etre des humains, des robots etc. On cherche
+   donc actuellement a developper des moyens informatiques permettant de faciliter et de guider le travail des sauveteurs sur 
+   le terrain.
+   Dans ce travail, nous allons plus modestement simuler le travail d'un groupe de robots pompiers charges 
+   d'eteindre un ou plusieurs incendies. Les caracteristiques du projet sont detaillees dans ce qui suit.
+	
+     La carte du terrain d'intervention est representee par un graphe dont les noeuds representent des points particuliers sur la
+   carte et les arcs les chemins possibles entre les noeuds.
+ 
+     Les noeuds sont caracterises par une longitude et une latitude et il existe differents types de noeuds : des noeuds de base
+   permettant de representer un chemin particulier, des noeuds representant des stations (bleues) dans lesquelles les robots 
+   peuvent recharger leurs batteries, des noeuds representant des incendies (rouges ).
+ 
+     Les robots sont des " pompiers elementaires " qui peuvent se deplacer, eteindre un feu et qui connaissent leur position a
+   tout instant. Ils sont egalement capables de calculer le plus court chemin qu'ils peuvent trouver jusqu'a un point de la carte
+   (en utilisant le graphe representant la carte). Des que le robot est sur un noeud correspond a un incendie, il va l'eteindre
+   et cela va prendre un certain temps.
+ 
+      Pour pouvoir determiner quel est le plus court chemin d'un robot aux differents incendies sur la carte, on utilise
+   un algorithme de pathfinding. Ces algorithmes permettent de trouver le plus court chemin dans un graphe, par exemple 
+   algorithme de Dijkstra, algorithme A*,... On essaie d'avoir une application modulaire, qui permette
+   facilement d'implanter un algorithme particulier sans devoir changer toute l'application.
+   On considere plusieurs types de robots : robots a chenilles (jaune), robots a pattes (vert), robot a roues (rose),...

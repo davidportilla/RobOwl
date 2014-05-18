@@ -1,0 +1,6 @@
+L’organisation de secours lors d’une catastrophe majeure est un problème important. En particulier, les acteurs présents \n
+sur le lieu de la catastrophe peuvent être de di?érentes nationalités, peuvent être des humains, des robots etc. On cherche \n
+donc actuellement à développer des moyens informatiques permettant de faciliter et de guider le travail des sauveteurs sur \n
+le terrain.\n \n
+Dans ce travail, nous allons plus modestement simuler le travail d’un groupe de robots pompiers chargés \n
+d’éteindre un ou plusieurs incendies. Les caractéristiques du projet sont détaillées dans ce qui suit.
